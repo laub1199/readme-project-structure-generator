@@ -9,11 +9,7 @@ const constructStructure = (setting: Object, level: number) => {
     let line = ''
 
     for (let i = 0; i < level; i++) {
-      if (i === level - 1) {
-        line += '│   '
-      } else {
-        line += '   '
-      }
+      line += '│   '
     }
 
     if (count === lastIndex) {
